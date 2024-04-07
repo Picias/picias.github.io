@@ -20,7 +20,6 @@
         </ul>
     </nav>
 </header>
-
 <main>
     <section id="home" class="slider">
         <h1 class="company-name">Twoja firma</h1>
@@ -29,7 +28,6 @@
         <img src="images/image3.jpg" alt="Slide 3" class="slide">
         <img src="images/image4.jpg" alt="Slide 4" class="slide">
     </section>
-
     <section id="about" class="about">
         <h2><span class="highlight">O nas</span></h2>
         <p>Witamy w sklepie "Meble Elegancja" – Twoim domu mebli najwyższej jakości i niepowtarzalnego designu.<br>
@@ -46,6 +44,33 @@
         <img src="images/image5.jpg" alt="Sklep" class="store-image">
     </section>
     <hr>
+    <section id="gallery" class="gallery">
+        <h2>Galeria</h2>
+        <nav class="gallery-menu">
+            <ul class="gallery-menu-list">
+                <li><a href="#" data-category="all" class="active">Wszystko</a></li>
+                <li><a href="#" data-category="sofas">Sofy</a></li>
+                <li><a href="#" data-category="tables">Stoły</a></li>
+                <li><a href="#" data-category="chairs">Krzesła</a></li>
+                <li><a href="#" data-category="beds">Łóżka</a></li>
+            </ul>
+        </nav>
+        <div class="gallery-images">
+            <div class="gallery-item sofas" data-name="Sofa 1">
+                <img src="images/sofa.jpg" alt="Sofa 1">
+                <span class="item-name">Sofa 1</span>
+            </div>
+            <div class="gallery-item tables" data-name="Stół 1">
+                <img src="images/table.jpg" alt="Stół 1">
+                <span class="item-name">Stół 1</span>
+            </div>
+            <!-- Dodaj więcej elementów galerii z różnymi kategoriami -->
+        </div>
+        <div class="enlarged-image-container">
+            <img src="" alt="Powiększone zdjęcie" class="enlarged-image">
+        </div>
+    </section>    
+    <hr>
     <section id="contact" class="contact">
         <h2>Kontakt</h2>
         <p>Zapraszamy do kontaktu z nami w razie pytań lub w celu umówienia się na wizytę.</p>
@@ -57,11 +82,9 @@
         </ul>
     </section>
 </main>
-
 <footer>
     <p>&copy; 2024 MikroDev</p>
 </footer>
-
 <script src="script.js"></script>
 </body>
 </html>
